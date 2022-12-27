@@ -12,3 +12,4 @@ function findTargetIndices(nums, target) {
   
     return indices;
   }
+  console.log(findTargetIndices([1, 2, 5, 2, 3]));
