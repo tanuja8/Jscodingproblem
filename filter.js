@@ -36,3 +36,5 @@ let team=[
 
 let developer=team.filter(val=>val.position=="developer");
 console.log(developer);
+
+// Q. filer below 26 value (name,age)
