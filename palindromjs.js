@@ -1,6 +1,7 @@
 const isPlindrom=function(x){
-    return x===+x.toString().split("").reverse().join("");
+   
+    return x<0 ? false: x===+x.toString().split("").reverse().join("");
 };
     
-const res=isPlindrom(154);
+const res=isPlindrom(151);
 console.log(res)
