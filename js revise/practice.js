@@ -91,6 +91,35 @@
 //     console.log(a+b);
 // }
 
-const sum=(a,b)=>{
-    console.log(a+b);
- }
+// const sum=(a,b)=>{
+//     console.log(a+b);
+//  }
+
+// function countVowl(str){
+//     let count=0;
+//     for(const val of str){
+//         if(val==="a" ||val==="e" || val==="i" || val ==="o" || val==="u"){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// function add(a, b) {
+//     return a + b;
+// }
+
+// let result = add(2, 3);  // return kore result = 5
+// console.log(result);     // 5 output dekhabey
+
+const countVowl=(str)=>{
+    let count=0;
+    for(const char of str){
+    if(  char==="a" ||char==="e" || char==="i" || char ==="o" || char==="u"){
+        count++;
+    }
+
+}
+console.log(count)
+}
+    
