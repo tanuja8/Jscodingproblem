@@ -112,14 +112,30 @@
 // let result = add(2, 3);  // return kore result = 5
 // console.log(result);     // 5 output dekhabey
 
-const countVowl=(str)=>{
-    let count=0;
-    for(const char of str){
-    if(  char==="a" ||char==="e" || char==="i" || char ==="o" || char==="u"){
-        count++;
-    }
+// const countVowl=(str)=>{
+//     let count=0;
+//     for(const char of str){
+//     if(  char==="a" ||char==="e" || char==="i" || char ==="o" || char==="u"){
+//         count++;
+//     }
 
-}
-console.log(count)
-}
+// }
+// console.log(count)
+// }
     
+// for each
+// let arr =["Tanuja"]
+// arr.forEach(function print(val){
+//     console.log(val)
+// })
+// let arr =[7,1,5]
+// arr.forEach((val)=>{
+//     console.log(val)
+// })
+ 
+// print square of each value of an array using foreach loop
+let arr=[2,8,6,7,4,9]
+arr.forEach((val)=>{
+    let square=val*val;
+    console.log(square)
+})
