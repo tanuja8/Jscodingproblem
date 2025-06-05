@@ -25,11 +25,12 @@ body{
 .box{
     height: 18vmin;
     width: 18vmin;
+    background-color:#f7edd2;
     border-radius:1rem;
     border: none;
     font-size: 8vmin;
     color: brown;
-    box-shadow: 0 0 1rem rgb(45, 45, 45);
+    box-shadow: 0 0 1rem rgb(73, 73, 73);
 }
 #reset-btn{
     background-color:black;
