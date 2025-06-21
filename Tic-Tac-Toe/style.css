@@ -40,3 +40,27 @@ body{
     border-radius: 1rem;
     border: none;  
 }
+
+#new-btn{
+    background-color:black;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 1rem;
+    border: none;  
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+#msg{
+    color:white;
+    font-size: 5vmin;
+}
+.hide{
+    display: none;
+}
